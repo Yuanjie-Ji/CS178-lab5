@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+
+  <div>
+
+    <h1>CS 178 Lab 5: Advanced D3</h1>
+
+    <div id="scatterplot">
+      <h2>Scatter Plot</h2>
+        <div id="scatterplot_dropdown">
+          <p>
+            Select x-axis: <select id="xAxisDropdown"></select>
+            <br>
+            Select y-axis: <select id="yAxisDropdown"></select>
+          </p>
+        </div>
+      <div id="scatterplot_legend"></div>
+      <div id="my_scatterplot"></div>
+    </div>
+
+    <div id="barchart">
+      <h2>Bar Chart</h2>
+      <div id="barChartButton">
+        <p>
+          Select value to plot:
+          <input type="radio" name="barChartButton" value="AVG" checked> AVG
+          <input type="radio" name="barChartButton" value="MAX"> MAX
+          <input type="radio" name="barChartButton" value="MIN"> MIN
+        </p>
+      </div>
+      <div id="barchart_legend"></div>
+      <div id="my_barchart"></div>
+    </div>
+
+  </div>
+
+<p></p>
+
+<!--<script src="script_solution.js"></script>-->
+<script src="script_starter.js"></script>

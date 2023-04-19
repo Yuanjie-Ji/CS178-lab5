@@ -1,0 +1,23 @@
+body {
+    font-family: 'Monaco';
+    vertical-align: bottom;
+  }
+
+
+h2{
+    text-align: left;
+}
+
+#barchart {
+    display: inline-block;
+}
+#scatterplot {
+    display: inline-block;
+}
+
+
+body{
+    /* text-align: center; */
+    margin-top: 5%;
+    margin-left: 5%;
+}
